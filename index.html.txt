@@ -1,0 +1,53 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freela - Conectando Empresas e Freelancers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <a href="https://www.instagram.com/paletas_clean" target="_blank">
+        <img src="paletas-clean-banner.jpg" alt="Anúncio Paletas Clean">
+        <p>Seu estofado limpo como novo! Agende agora com a Paletas Clean. 💧✨</p>
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1>Encontre ou ofereça serviços temporários de forma simples e rápida.</h1>
+    <p>Empresas postam vagas em minutos. Freelancers encontram oportunidades próximas.</p>
+  </section>
+
+  <section class="jobs">
+    <h2>Vagas Disponíveis</h2>
+    <div class="job-list">
+      <div class="job-card">
+        <h3>Garçom</h3>
+        <p>Hoje, 18h-23h | R$100</p>
+        <button>Ver Detalhes</button>
+      </div>
+      <div class="job-card">
+        <h3>Promotora de Eventos</h3>
+        <p>Sábado | R$150</p>
+        <button>Ver Detalhes</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Freela - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

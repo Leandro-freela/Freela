@@ -1,0 +1,123 @@
+styles.css 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #0044cc;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.banner a {
+  color: #0044cc;
+  font-weight: bold;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  padding: 20px;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.jobs {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.jobs h2 {
+  text-align: center;
+  color: #333;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
+
+.job-card h3 {
+  font-size: 1.6em;
+}
+
+.job-card p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0033aa;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
